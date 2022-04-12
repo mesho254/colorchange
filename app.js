@@ -1,10 +1,10 @@
-const buttonBcg = document.querySelector("button");
+const bodyBcg = document.querySelector("body");
 const button = document.querySelector("button");
 
-button.addEventListener("click",function(){
-    var color = ["green","Purple","Pink","brown","aqua","aquamarine","grey","red","white","maroon"];
+button.addEventListener("click", function () {
+    var color = ["green", "Purple", "Pink", "brown", "aqua", "aquamarine", "grey", "red", "white", "maroon"];
 
-    let random = Math.floor(Math.random()*color.length);
+    let random = Math.floor(Math.random() * color.length);
 
-    buttonBcg.style.backgroundColor = color[random];
+    bodyBcg.style.backgroundColor = color[random];
 });
